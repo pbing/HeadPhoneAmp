@@ -165,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	4350 6100 5350 6100
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 #SW1
 U 2 1 5EB2A508
 P 3950 6100
-F 0 "SW1" H 3950 6243 50  0000 C CNN
+F 0 "#SW1" H 3950 6243 50  0000 C CNN
 F 1 "SW_DPST_x2" H 3950 6244 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3950 6100 50  0001 C CNN
 F 3 "~" H 3950 6100 50  0001 C CNN
@@ -182,10 +182,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 6100 4350 6100
 $Comp
-L Connector:Conn_01x02_Male J4
+L Connector:Conn_01x02_Male #J4
 U 1 1 5EB1433B
 P 3450 6000
-F 0 "J4" H 3558 6089 50  0000 C CNN
+F 0 "#J4" H 3558 6089 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3558 6090 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 6000 50  0001 C CNN
 F 3 "~" H 3450 6000 50  0001 C CNN
@@ -197,10 +197,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 6100 3650 6100
 $Comp
-L Connector:Conn_01x03_Male J2
+L Connector:Conn_01x03_Male #J2
 U 1 1 5EB368A2
 P 2650 1900
-F 0 "J2" H 2758 2089 50  0000 C CNN
+F 0 "#J2" H 2758 2089 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 2758 2090 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2650 1900 50  0001 C CNN
 F 3 "~" H 2650 1900 50  0001 C CNN
@@ -499,10 +499,10 @@ Connection ~ 7450 1200
 Wire Wire Line
 	7450 1200 7550 1200
 $Comp
-L Connector:Conn_01x03_Male J1
+L Connector:Conn_01x03_Male #J1
 U 1 1 5EB9B5A7
 P 8300 1850
-F 0 "J1" H 8272 1828 50  0000 R CNN
+F 0 "#J1" H 8272 1828 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 8272 1783 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8300 1850 50  0001 C CNN
 F 3 "~" H 8300 1850 50  0001 C CNN
@@ -586,10 +586,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 4600 3750 4600
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male #J3
 U 1 1 5EB136D2
 P 3450 4600
-F 0 "J3" H 3558 4689 50  0000 C CNN
+F 0 "#J3" H 3558 4689 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3558 4690 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 4600 50  0001 C CNN
 F 3 "~" H 3450 4600 50  0001 C CNN
@@ -597,10 +597,10 @@ F 3 "~" H 3450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 #SW1
 U 1 1 5EB295CA
 P 3950 4600
-F 0 "SW1" H 3950 4743 50  0000 C CNN
+F 0 "#SW1" H 3950 4743 50  0000 C CNN
 F 1 "SW_DPST_x2" H 3950 4744 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3950 4600 50  0001 C CNN
 F 3 "~" H 3950 4600 50  0001 C CNN
@@ -856,4 +856,12 @@ Text Notes 3350 4700 2    100  ~ 0
 9 V block battery
 Text Notes 3400 6100 2    100  ~ 0
 9 V block battery
+Text Label 7950 1350 0    100  ~ 0
+OUTL
+Text Label 7950 2650 0    100  ~ 0
+OUTR
+Text Label 3100 1000 0    100  ~ 0
+INL
+Text Label 3100 2500 0    100  ~ 0
+INR
 $EndSCHEMATC

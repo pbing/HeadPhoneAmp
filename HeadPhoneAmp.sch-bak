@@ -165,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	4350 6100 5350 6100
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 #SW1
 U 2 1 5EB2A508
 P 3950 6100
-F 0 "SW1" H 3950 6243 50  0000 C CNN
+F 0 "#SW1" H 3950 6243 50  0000 C CNN
 F 1 "SW_DPST_x2" H 3950 6244 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3950 6100 50  0001 C CNN
 F 3 "~" H 3950 6100 50  0001 C CNN
@@ -597,11 +597,11 @@ F 3 "~" H 3450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 #SW1
 U 1 1 5EB295CA
 P 3950 4600
-F 0 "SW1" H 3950 4743 50  0000 C CNN
-F 1 "SW_DPST_x2" H 3950 4744 50  0001 C CNN
+F 0 "#SW1" H 3950 4743 50  0000 C CNN
+F 1 "#SW_DPST_x2" H 3950 4744 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3950 4600 50  0001 C CNN
 F 3 "~" H 3950 4600 50  0001 C CNN
 	1    3950 4600
@@ -848,4 +848,12 @@ F 3 "" H 7950 5350 50  0001 C CNN
 	4    7950 5350
 	1    0    0    -1  
 $EndComp
+Text Notes 8450 1850 0    100  ~ 0
+headphone jack
+Text Notes 2600 1950 2    100  ~ 0
+input jack
+Text Notes 3350 4700 2    100  ~ 0
+9 V block battery
+Text Notes 3400 6100 2    100  ~ 0
+9 V block battery
 $EndSCHEMATC
