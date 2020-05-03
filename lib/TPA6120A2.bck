@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA6120A2_HSOP20
+D High Fidelity Headphone Amplifier
+K headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tpa6120a2.pdf
+$ENDCMP
+#
+$CMP TPA6120A2_VQFN14
+D High Fidelity Headphone Amplifier
+K headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tpa6120a2.pdf
+$ENDCMP
+#
+#End Doc Library

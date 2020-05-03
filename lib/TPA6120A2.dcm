@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA6120A2_HSOP20
+D Headphone Amplifier
+K headphone amp
+$ENDCMP
+#
+$CMP TPA6120A2_VQFN14
+D Headphone Amplifier
+K headphone amp
+$ENDCMP
+#
+#End Doc Library
