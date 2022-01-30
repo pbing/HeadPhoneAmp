@@ -1,3 +1,6 @@
 *.kicad_pcb-bak
 *.sch-bak
 *.bck
+*-backups/
+*-table
+*-cache
